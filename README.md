@@ -1,18 +1,22 @@
 # Hi, I'm Isaac
 
-I build practical data and web tools—sports analytics, personal trackers, and collection apps. Most of my work uses Python, FastAPI, React, SQL, Streamlit, and Docker/Fly.io.
+I build software around things I spend time on: sports, data, and personal tools. My projects range from a private NFL confidence pool to research pipelines and a workout tracker.
 
-I like turning personal interests into useful software and keeping the work understandable from the README to the deployed app.
+Most of this work uses Python, FastAPI, React, TypeScript, and SQL. I use Streamlit for research interfaces and Docker and Fly.io for deployment.
 
-## Featured work
+## Projects you can explore
 
-- **[NFL Confidence Pool](https://github.com/isaacsilver13/NFL_Confidence)** — A private NFL confidence-pool app with league management, automated scoring, and leaderboards.
-- **[Betting Aggregator](https://github.com/isaacsilver13/betting_aggregator)** — A read-only NFL and NBA odds comparison tool with fixture-driven local development.
-- **[Gym Tracker](https://github.com/isaacsilver13/gym_tracker)** — A personal workout planner and progress tracker with routines, session logging, and charts.
-- **[Vinyl](https://github.com/isaacsilver13/vinyl)** — A personal vinyl collection catalog built around Discogs and Spotify metadata.
-- **[NBA Prediction](https://github.com/isaacsilver13/nba_prediction)** — A local NBA modeling, walk-forward backtesting, and dashboard workflow.
-- **[AIsaac Dashboard](https://github.com/isaacsilver13/aisaac_dashboard)** — A personal operations dashboard for checking application health and releases.
+| Project | What it does |
+| --- | --- |
+| [NFL Confidence Pool](https://github.com/isaacsilver13/NFL_Confidence) | Runs one invite-only league per deployment, with weekly confidence picks, scoring, and standings. |
+| [Bet Watch](https://github.com/isaacsilver13/bet_watch) | Compares NFL and NBA odds and supports a private bet journal, scheduled data collection, and research reports. It does not place bets. |
+| [Gym Tracker](https://github.com/isaacsilver13/gym) | Builds workout routines, logs sessions, and charts progress, with optional openGym, Endurain, and Apple Health integration. |
+| [NBA Research](https://github.com/isaacsilver13/nba) | Builds features, runs walk-forward backtests, and displays research results with provenance and odds-quality checks. Historical results are experiments, not evidence of future returns. |
 
-## Working style
+These are personal projects with different levels of maturity. Their READMEs describe setup, current behavior, and limitations. Archived repositories preserve earlier versions.
 
-I value reproducible data workflows, clear documentation, and small, well-tested improvements. The repositories here include active projects, experiments, and tools I use to learn by building.
+## How I work
+
+I use AI as a development assistant for implementation, debugging, tests, and documentation. I own the project decisions and the responsibility for what ships. I want the work to be understandable: what a tool does, what was checked, what is still uncertain, and why a change was made.
+
+I keep private data and personal deployments separate from the public source code. The projects linked above have public repositories; that does not mean their running applications or data are public.
